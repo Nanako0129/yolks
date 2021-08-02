@@ -20,7 +20,7 @@
 # SOFTWARE.
 #
 
-FROM        --platform=$BUILDPLATFORM adoptopenjdk/openjdk16:alpine-jre
+FROM        --platform=$BUILDPLATFORM adoptopenjdk/openjdk16:alpine
 
 LABEL       author="Matthew Penner" maintainer="matthew@pterodactyl.io"
 
